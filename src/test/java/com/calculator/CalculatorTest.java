@@ -3,7 +3,7 @@ package com.calculator;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class CalculatorTest extends BaseTest {
+public class CalculatorTest extends BaseTest2 {
 
     @Test
     public void addShouldSucceed() throws InterruptedException {
