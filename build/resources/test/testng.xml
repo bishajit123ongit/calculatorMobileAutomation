@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Bishawajit/IdeaProjects/mobile-automation">
+        <classes>
+            <class name="com.calculator.CalculatorTest">
+<!--                <methods>-->
+<!--                    <include name="addShouldSucceed"/>-->
+<!--                    <include name="subtractShouldSucceed"/>-->
+<!--                    <include name="multiplyShouldSucceed"/>-->
+<!--                    <include name="modulusShouldSucceed"/>-->
+<!--                    <include name="divisionShouldSucceed"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.emi.calculator.pom.testcases.CompareLoanTest">
+<!--                <methods>-->
+<!--                    <include name="compareLoanShouldSucceed"/>-->
+<!--                    <include name="resetLoanShouldSucceed"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.emi.calculator.pom.testcases.EmiCalculatorTest">
+<!--                <methods>-->
+<!--                    <include name="emiCalculateShouldSucceed"/>-->
+<!--                    <include name="resetEmiShouldSucceed"/>-->
+<!--                    <include name="detailEmiShouldSucceed"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.emi.calculator.pom.testcases.HomeTest">
+<!--                <methods>-->
+<!--                    <include name="emiCalculatorBtnShouldBeShown"/>-->
+<!--                    <include name="compareLoanBtnShouldBeShown"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
